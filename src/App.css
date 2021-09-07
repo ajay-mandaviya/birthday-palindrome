@@ -1,0 +1,80 @@
+.App {
+  margin: 1rem;
+  box-shadow: 5px 5px 5px grey;
+  width: 70%;
+  border: 0.5px solid gray;
+  margin: 20px auto;
+}
+
+.main__section {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 3rem;
+  background-color: #242b2e;
+  color: #fff;
+}
+
+.main__header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.main__header > h1 {
+  font-size: 2.4rem;
+}
+
+#content {
+  margin: 5rem 0;
+}
+
+.date-picker {
+  display: block;
+  margin: auto;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  outline: none;
+  border: 2px solid #242b2e;
+  border-radius: 20px;
+}
+
+button {
+  padding: 0.7rem 2.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #242b2e;
+}
+
+@media screen and (max-width: 750px) {
+  .App {
+    margin: 1rem 0.2rem;
+  }
+  .main__section {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .main__header {
+    padding: 0;
+  }
+
+  .main__header > h1 {
+    font-size: 2rem;
+  }
+}
